@@ -1,0 +1,11 @@
+<section class = "fondo">
+    <div class = "titulo">Calculadora formula E = mc2</div>
+    <div class="cal">
+      <label class="text">  E = </label>
+      <input type="number" class = "input" placeholder="m" [(ngModel)] = "m" name = "masa">
+      <label class="text"> × </label>
+      <label class="text">  c² </label><br> 
+      <label class="text">E = {{resultado}} J</label>
+    </div>
+    <button class = "boton" (click) = "formulamc2()">Calcular</button>
+  </section>
